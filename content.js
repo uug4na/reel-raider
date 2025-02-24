@@ -1,4 +1,3 @@
-// Hide Reels button
 function hideReelsButton() {
   const reelsButton = document.querySelector('a[href="/reels/"]') ||
                       document.querySelector('svg[aria-label="Reels"]')?.parentElement?.parentElement;
